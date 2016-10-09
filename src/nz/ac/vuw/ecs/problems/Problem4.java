@@ -1,8 +1,5 @@
 package nz.ac.vuw.ecs.problems;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * This class represents the problem 4 of Project Euler
  * "Largest palindrome product"
@@ -11,7 +8,7 @@ import java.util.List;
  * Status:
  *      Correct
  * Answer:
- *      sum = 6857
+ *      906609 = 993 * 913
  *
  * @author Yiming
  * @version 1.0.0
