@@ -25,11 +25,9 @@ public class Problem3 {
         int i = 2;
         long temp = num;
         do {
-            if (temp % i == 0){
-                if (checkPrime(i)){
-                    list.add(i);
-                    temp = temp/i;
-                }
+            if (temp % i == 0 && checkPrime(i)){
+                list.add(i);
+                temp = temp/i;
             }
             i++;
         }while(i<=temp);
