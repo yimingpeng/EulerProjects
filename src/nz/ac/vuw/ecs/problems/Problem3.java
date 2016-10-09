@@ -25,15 +25,16 @@ public class Problem3 {
         int i = 2;
         long temp = num;
         do {
-            if (temp % i == 0 && checkPrime(i)){
+            if (temp % i == 0 && isPrime(i)){
                 list.add(i);
                 temp = temp/i;
+                i = 1;
             }
             i++;
         }while(i<=temp);
     }
 
-    private static boolean checkPrime(int num){
+    private static boolean isPrime(int num){
         int count = 0;
         for (int i = 1; i <= num; i++) {
             if ( num % i == 0){
@@ -45,6 +46,10 @@ public class Problem3 {
 
     public static void main(String[] args) {
         primeFactorization(600851475143L);
+        for (Integer num:list
+             ) {
+            System.out.println(num.intValue());
+        }
         System.out.println("The largest prime factor is "+ list.get(list.size() - 1));
     }
 }
