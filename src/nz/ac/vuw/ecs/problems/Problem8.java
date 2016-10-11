@@ -8,7 +8,7 @@ package nz.ac.vuw.ecs.problems;
  * Status:
  *      Correct
  * Answer:
- *      2091059712
+ *      23514624000
  *
  * @author Yiming
  * @version 1.0.0
