@@ -1,8 +1,5 @@
 package nz.ac.vuw.ecs.problems;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-
 /**
  * This class represents the problem 15 of Project Euler
  * "Lattice paths"
