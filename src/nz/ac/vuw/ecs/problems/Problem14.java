@@ -2,7 +2,7 @@ package nz.ac.vuw.ecs.problems;
 
 /**
  * This class represents the problem 14 of Project Euler
- * "Highly divisible triangular number"
+ * "Longest Collatz sequence"
  * Link:
  *      https://projecteuler.net/problem=14
  * Status:
